@@ -1,148 +1,147 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>블로그 | 화곡 셔츠룸 네트워크 보안</title>
-    <meta name="description" content="화곡 셔츠룸 상권의 네트워크 보안 위협과 AI 기반 대응 전략. 2024년 기업 73% 표적 보안 위협, 당사의 위협 인텔리전스로 비즈니스 연속성을 보장합니다. 상담 010-6279-0862.">
-    <meta name="keywords" content="화곡 셔츠룸, 마포 네트워크 보안, 화곡 보안 솔루션, 셔츠룸 보안, 네트워크 위협 탐지, PBN 보안, aegis-warmer">
-    <link rel="canonical" href="https://sf-t3-1779642675702-476.maphoshirts.today/blog.html">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-neon-void">
-    <!-- Open Graph -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="블로그 | 화곡 셔츠룸 네트워크 보안">
-    <meta property="og:description" content="화곡 셔츠룸 상권의 네트워크 보안 위협과 AI 기반 대응 전략. 2024년 기업 73% 표적 보안 위협.">
-    <meta property="og:url" content="https://sf-t3-1779642675702-476.maphoshirts.today/blog.html">
-    <meta property="og:site_name" content="화곡 셔츠룸 네트워크 보안">
-    <meta property="og:locale" content="ko_KR">
-    <style>
-        /* ===== RESET & BASE ===== */
-        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-        html { font-size: 16px; scroll-behavior: smooth; }
-        body { 
-            font-family: 'Courier New', Courier, monospace; 
-            background: #0a0a0a; 
-            color: #e0e0e0; 
-            line-height: 1.6;
-        }
-        a { color: #ff2a2a; text-decoration: none; border-bottom: 2px solid transparent; transition: border-color 0.2s; }
-        a:hover, a:focus { border-bottom-color: #ff2a2a; }
-        ul { list-style: none; }
-        img { max-width: 100%; height: auto; display: block; }
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+ <title>블로그 | 화곡 셔츠룸 네트워크 보안</title>
+ <meta name="description" content="화곡 셔츠룸 상권의 네트워크 보안 위협과 AI 기반 대응 전략. 2024년 기업 73% 표적 보안 위협, 당사의 위협 인텔리전스로 비즈니스 연속성을 보장합니다.">
+ <meta name="keywords" content="화곡 셔츠룸, 마포 네트워크 보안, 화곡 보안 솔루션, 셔츠룸 보안, 네트워크 위협 탐지, PBN 보안, aegis-warmer">
+ <link rel="canonical" href="https://sf-t3-1779642675702-476.maphoshirts.today/blog.html">
+ <!-- Open Graph -->
+ <meta property="og:type" content="article">
+ <meta property="og:title" content="블로그 | 화곡 셔츠룸 네트워크 보안">
+ <meta property="og:description" content="화곡 셔츠룸 상권의 네트워크 보안 위협과 AI 기반 대응 전략. 2024년 기업 73% 표적 보안 위협, 당사의 위협 인텔리전스로 비즈니스 연속성을 보장합니다.">
+ <meta property="og:url" content="https://sf-t3-1779642675702-476.maphoshirts.today/blog.html">
+ <meta property="og:site_name" content="화곡 셔츠룸 네트워크 보안">
+ <meta property="og:locale" content="ko_KR">
+ <style>
+ /* ===== RESET & BASE ===== */
+ *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+ html { font-size: 16px; scroll-behavior: smooth; }
+ body { 
+ font-family: 'Courier New', Courier, monospace; 
+ background: #0a0a0a; 
+ color: #e0e0e0; 
+ line-height: 1.6;
+ }
+ a { color: #ff2a2a; text-decoration: none; border-bottom: 2px solid transparent; transition: border-color 0.2s; }
+ a:hover, a:focus { border-bottom-color: #ff2a2a; }
+ ul { list-style: none; }
+ img { max-width: 100%; height: auto; display: block; }
 
-        /* ===== TYPOGRAPHY ===== */
-        h1, h2, h3, h4, h5, h6 { font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: #fff; }
-        h1 { font-size: 2.8rem; line-height: 1.1; margin-bottom: 1.2rem; }
-        h2 { font-size: 2.2rem; margin-bottom: 1rem; border-left: 6px solid #ff2a2a; padding-left: 1rem; }
-        h3 { font-size: 1.6rem; margin-bottom: 0.8rem; color: #ff2a2a; }
-        p { margin-bottom: 1.2rem; font-size: 1.1rem; }
-        blockquote { 
-            border-left: 4px solid #ff2a2a; 
-            padding: 0.8rem 1.5rem; 
-            margin: 1.5rem 0; 
-            background: rgba(255,42,42,0.08); 
-            font-style: italic; 
-        }
-        .data-point { 
-            background: #1a1a1a; 
-            padding: 0.8rem 1.2rem; 
-            border: 1px solid #333; 
-            display: inline-block; 
-            font-weight: bold; 
-            color: #ff2a2a; 
-        }
+ /* ===== TYPOGRAPHY ===== */
+ h1, h2, h3, h4, h5, h6 { font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: #fff; }
+ h1 { font-size: 2.8rem; line-height: 1.1; margin-bottom: 1.2rem; }
+ h2 { font-size: 2.2rem; margin-bottom: 1rem; border-left: 6px solid #ff2a2a; padding-left: 1rem; }
+ h3 { font-size: 1.6rem; margin-bottom: 0.8rem; color: #ff2a2a; }
+ p { margin-bottom: 1.2rem; font-size: 1.1rem; }
+ blockquote { 
+ border-left: 4px solid #ff2a2a; 
+ padding: 0.8rem 1.5rem; 
+ margin: 1.5rem 0; 
+ background: rgba(255,42,42,0.08); 
+ font-style: italic; 
+ }
+ .data-point { 
+ background: #1a1a1a; 
+ padding: 0.8rem 1.2rem; 
+ border: 1px solid #333; 
+ display: inline-block; 
+ font-weight: bold; 
+ color: #ff2a2a; 
+ }
 
-        /* ===== LAYOUT HELPERS ===== */
-        .container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
-        .section-gap { margin-bottom: 4rem; }
+ /* ===== LAYOUT HELPERS ===== */
+ .container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+ .section-gap { margin-bottom: 4rem; }
 
-        /* ===== HEADER / NAV ===== */
-        .site-header { 
-            background: #111; 
-            border-bottom: 3px solid #ff2a2a; 
-            padding: 1rem 0; 
-            position: sticky; 
-            top: 0; 
-            z-index: 100; 
-        }
-        .nav-present { display: flex; justify-content: space-between; align-items: center; }
-        .logo a { font-size: 1.8rem; font-weight: 900; color: #fff; text-transform: uppercase; border: none; }
-        .hamburger-menu { display: none; }
-        .nav-list { display: flex; gap: 2rem; }
-        .nav-list a { font-size: 1rem; font-weight: 600; text-transform: uppercase; padding: 0.5rem 0; }
-        .nav-list a.active, .nav-list a[aria-current="page"] { border-bottom-color: #ff2a2a; color: #ff2a2a; }
-        /* Responsive 768 */
-        @media (max-width: 768px) {
-            .hamburger-menu { display: block; }
-            .nav-list { 
-                display: none; 
-                flex-direction: column; 
-                gap: 0; 
-                position: absolute; 
-                top: 100%; 
-                left: 0; 
-                right: 0; 
-                background: #111; 
-                border-bottom: 3px solid #ff2a2a; 
-                padding: 1rem 0; 
-            }
-            .nav-list a { padding: 0.8rem 1.5rem; }
-            #hamburger-toggle:checked ~ .nav-list { display: flex; }
-        }
-        #hamburger-toggle { display: none; }
-        .hamburger-label { 
-            cursor: pointer; 
-            padding: 0.5rem; 
-            color: #fff; 
-            font-size: 1.8rem; 
-            line-height: 1; 
-        }
+ /* ===== HEADER / NAV ===== */
+ .site-header { 
+ background: #111; 
+ border-bottom: 3px solid #ff2a2a; 
+ padding: 1rem 0; 
+ position: sticky; 
+ top: 0; 
+ z-index: 100; 
+ }
+ .nav-present { display: flex; justify-content: space-between; align-items: center; }
+ .logo a { font-size: 1.8rem; font-weight: 900; color: #fff; text-transform: uppercase; border: none; }
+ .hamburger-menu { display: none; }
+ .nav-list { display: flex; gap: 2rem; }
+ .nav-list a { font-size: 1rem; font-weight: 600; text-transform: uppercase; padding: 0.5rem 0; }
+ .nav-list a.active, .nav-list a[aria-current="page"] { border-bottom-color: #ff2a2a; color: #ff2a2a; }
+ /* Responsive 768 */
+ @media (max-width: 768px) {
+ .hamburger-menu { display: block; }
+ .nav-list { 
+ display: none; 
+ flex-direction: column; 
+ gap: 0; 
+ position: absolute; 
+ top: 100%; 
+ left: 0; 
+ right: 0; 
+ background: #111; 
+ border-bottom: 3px solid #ff2a2a; 
+ padding: 1rem 0; 
+ }
+ .nav-list a { padding: 0.8rem 1.5rem; }
+ #hamburger-toggle:checked ~ .nav-list { display: flex; }
+ }
+ #hamburger-toggle { display: none; }
+ .hamburger-label { 
+ cursor: pointer; 
+ padding: 0.5rem; 
+ color: #fff; 
+ font-size: 1.8rem; 
+ line-height: 1; 
+ }
 
-        /* ===== HERO / BLOG POST ===== */
-        .blog-hero { padding: 4rem 0 2rem; border-bottom: 2px solid #222; }
-        .blog-meta { font-size: 0.9rem; color: #888; margin-bottom: 2rem; display: flex; gap: 1.5rem; flex-wrap: wrap; }
-        .blog-content h2 { margin-top: 2.5rem; }
-        .blog-content ul { margin: 1.2rem 0; padding-left: 1.5rem; }
-        .blog-content ul li { list-style: square; margin-bottom: 0.6rem; color: #ccc; }
-        .blog-content ul li::marker { color: #ff2a2a; }
+ /* ===== HERO / BLOG POST ===== */
+ .blog-hero { padding: 4rem 0 2rem; border-bottom: 2px solid #222; }
+ .blog-meta { font-size: 0.9rem; color: #888; margin-bottom: 2rem; display: flex; gap: 1.5rem; flex-wrap: wrap; }
+ .blog-content h2 { margin-top: 2.5rem; }
+ .blog-content ul { margin: 1.2rem 0; padding-left: 1.5rem; }
+ .blog-content ul li { list-style: square; margin-bottom: 0.6rem; color: #ccc; }
+ .blog-content ul li::marker { color: #ff2a2a; }
 
-        /* ===== FOOTER ===== */
-        .site-footer { 
-            background: #111; 
-            border-top: 3px solid #ff2a2a; 
-            padding: 2rem 0; 
-            text-align: center; 
-            margin-top: 4rem; 
-        }
-        .tel-link { 
-            display: inline-block; 
-            font-size: 1.4rem; 
-            font-weight: 800; 
-            color: #fff; 
-            background: #ff2a2a; 
-            padding: 0.6rem 1.8rem; 
-            border-radius: 2px; 
-            margin-top: 1rem; 
-        }
-        .tel-link:hover { background: #cc0000; border-bottom: none; }
-        .footer-copy { font-size: 0.85rem; color: #666; margin-top: 1.5rem; }
-    </style>
+ /* ===== FOOTER ===== */
+ .site-footer { 
+ background: #111; 
+ border-top: 3px solid #ff2a2a; 
+ padding: 2rem 0; 
+ text-align: center; 
+ margin-top: 4rem; 
+ }
+ .tel-link { 
+ display: inline-block; 
+ font-size: 1.4rem; 
+ font-weight: 800; 
+ color: #fff; 
+ background: #ff2a2a; 
+ padding: 0.6rem 1.8rem; 
+ border-radius: 2px; 
+ margin-top: 1rem; 
+ }
+ .tel-link:hover { background: #cc0000; border-bottom: none; }
+ .footer-copy { font-size: 0.85rem; color: #666; margin-top: 1.5rem; }
+ </style>
+  <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <header class="site-header">
-        <div class="container nav-present">
-            <div class="logo"><a href="/">화곡 셔츠룸</a></div>
-            <input type="checkbox" id="hamburger-toggle" aria-hidden="true">
-            <label for="hamburger-toggle" class="hamburger-label" aria-label="메뉴 열기">☰</label>
-            <nav class="nav-list" aria-label="주 메뉴">
-                <a href="/">홈</a>
-                <a href="/services/">서비스</a>
-                <a href="/blog/" class="active" aria-current="page">블로그</a>
-                <a href="/contact/">문의</a>
-            </nav>
-        </div>
-    </header>
+ <header class="site-header">
+ <div class="container nav-present">
+ <div class="logo"><a href="/">화곡 셔츠룸</a></div>
+ <input type="checkbox" id="hamburger-toggle" aria-hidden="true">
+ <label for="hamburger-toggle" class="hamburger-label" aria-label="메뉴 열기">☰</label>
+ <nav class="nav-list" aria-label="주 메뉴">
+ <a href="/">홈</a>
+ <a href="/services/">서비스</a>
+ <a href="/blog/" class="active" aria-current="page">블로그</a>
+ <a href="/contact/">문의</a>
+ </nav>
+ </div>
+ </header>
 
 <main>
 <section class="blog-hero container section-gap">
